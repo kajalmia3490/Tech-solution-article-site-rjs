@@ -1,0 +1,60 @@
+.header-section {
+    position: sticky;
+    top: 0;
+}
+
+header {
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: peru;
+    color: white;
+    cursor: pointer;
+}
+
+.heading {
+    font-size: 35px;
+}
+
+nav a {
+    margin-left: 30px;
+    background-color: purple;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.dialog {
+    width: 400px;
+    margin-top: 100px;
+    padding: 30px;
+    background-color: brown;
+    border-radius: 5px;
+    animation: dial ease-in-out;
+}
+
+.back-button {
+    padding: 5px 10px;
+    color: red;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.dialog input {
+    padding: 5px;
+    width: 80%;
+    outline: none;
+}
+
+.login-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
